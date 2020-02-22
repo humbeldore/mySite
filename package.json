@@ -1,0 +1,29 @@
+{
+  "name": "mySite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "next": "^9.2.2",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/humbeldore/mySite.git"
+  },
+  "keywords": [],
+  "author": "Benjamin Killer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/humbeldore/mySite/issues"
+  },
+  "homepage": "https://github.com/humbeldore/mySite#readme"
+}
