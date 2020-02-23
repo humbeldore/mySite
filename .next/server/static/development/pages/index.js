@@ -235,7 +235,7 @@ const Header = () => {
     __self: undefined
   }, "Benjamin Killer"), __jsx("meta", {
     name: "viewport",
-    content: "initial-scale=1.0, width=device-width",
+    content: "initial-scale=1.0, width=device-width, height=device-height",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 8
