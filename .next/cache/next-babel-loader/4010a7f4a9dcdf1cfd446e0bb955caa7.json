@@ -1,0 +1,1 @@
+{"ast":null,"code":"export default ((req, res) => {\n  const image = new Image();\n  image.src = './benny.jpg';\n  res.status(200).json(image);\n});","map":null,"metadata":{},"sourceType":"module"}

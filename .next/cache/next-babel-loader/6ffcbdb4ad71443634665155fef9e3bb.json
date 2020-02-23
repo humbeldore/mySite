@@ -1,0 +1,1 @@
+{"ast":null,"code":"// import benny from './benny.jpg'\nexport default ((req, res) => {\n  // const image = Buffer.from(benny)\n  const image = '';\n  res.status(200).send(image);\n});","map":null,"metadata":{},"sourceType":"module"}

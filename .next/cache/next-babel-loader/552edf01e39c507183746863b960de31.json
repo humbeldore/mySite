@@ -1,0 +1,1 @@
+{"ast":null,"code":"import Layout from './index';\nexport default Layout(Index);","map":null,"metadata":{},"sourceType":"module"}

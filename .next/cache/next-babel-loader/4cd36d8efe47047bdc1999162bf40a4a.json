@@ -1,0 +1,1 @@
+{"ast":null,"code":"import benny from './benny.jpg';\nexport default ((req, res) => {\n  res.status(200).json(benny);\n});","map":null,"metadata":{},"sourceType":"module"}
