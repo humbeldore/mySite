@@ -1,6 +1,7 @@
 import Layout from '../components/Layout'
 import ImageRound from '../components/ImageRound'
-import LinkedInIcon from '@material-ui/icons/LinkedIn';
+import LinkedInIcon from '@material-ui/icons/LinkedIn'
+import GitHubIcon from '@material-ui/icons/GitHub'
 
 import benny from '../images/benny.jpg'
 
@@ -13,6 +14,9 @@ const Index = () => {
             <div className="icons">
                 <a className="link" target="_blank" href="https://www.linkedin.com/in/benjamin-killer">
                     <LinkedInIcon fontSize="large"/>
+                </a>
+                <a className="link" target="_blank" href="https://github.com/humbeldore">
+                    <GitHubIcon fontSize="large"/>
                 </a>
             </div>
             <style jsx>{`
@@ -34,6 +38,11 @@ const Index = () => {
                 }
                 .icons {
                     margin-top: 20px;
+                    width: 200px;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-evenly;
+                    align-items: center;
                 }
 
             `}</style>
